@@ -17,7 +17,9 @@
           colors: {
             orange: '#ff4500',
             dark: '#111',
+            medium: '#333',
             light: '#eee',
+            khaki: '#f0e68c',
           }
         }
       }
@@ -26,6 +28,25 @@
   <title>Modal Using Tailwind</title>
 </head>
 <body>
-  
+  <div class="flex items-center justify-center min-h-screen bg-khaki">
+    <div class="relative flex flex-col m-6 space-y-10 bg-light shadow-2xl rounded-md md:flex-row md:space-y-0 md:m-0">
+      <div class="p-6 md:p-20 font-sans">
+        <h2 class=" mb-6 text-4xl text-orange font-bold">Login</h2>
+        <p class="max-w-sm mb-6 font-light text-dark">Enter your details below to access your account.</p>
+        <input type="text" class="w-full p-4 border border-orange rounded-sm text-dark bg-light placeholder:font-sans placeholder:font-medium" placeholder="Email ">
+      </div>
+      <img src="images/img.jpg" alt="" class="w-[430px] hidden md:block">
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
